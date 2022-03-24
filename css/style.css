@@ -10,3 +10,34 @@
 .models img{
     max-width: 100%;
 }
+
+.models .sales{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    color: white;
+    background-color: red;
+    font-size: 13px;
+} 
+
+.models .symbol{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background-color:   white;
+    font-size: 25px;
+    width: 35px;
+}
+
+.models .sustainability{
+    position: absolute;
+    left: 34px;
+    bottom: 20px;
+    color: white;
+    background-color: green;
+    font-size: 13px;
+}
+
+.internalspace{
+    padding: 2px;
+}
