@@ -18,13 +18,14 @@
     color: white;
     background-color: red;
     font-size: 13px;
+    display: block;
 } 
 
 .models .symbol{
     position: absolute;
     right: 0;
     top: 15px;
-    background-color:   white;
+    background-color: white;
     font-size: 25px;
     width: 35px;
 }
@@ -36,12 +37,21 @@
     color: white;
     background-color: green;
     font-size: 13px;
+    display: block;
 }
 
 .internalspace{
     padding: 2px;
 }
 
-.description{
-    margin: 5px;
+.secondmodels{
+    display: none;
+}
+
+.models:hover .firstmodels{
+    display: none;
+}
+
+.models:hover .secondmodels{
+    display: block;
 }
