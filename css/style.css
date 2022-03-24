@@ -1,0 +1,12 @@
+
+.models{
+    width: 17%;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.models img{
+    max-width: 100%;
+}
