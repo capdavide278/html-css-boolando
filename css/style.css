@@ -1,9 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    display: inline-block;
+
+}
 
 .models{
-    width: 17%;
+    width: 20%;
     position: relative;
     text-align: center;
     display: inline-block;
+    margin-left: 15px;
     
 }
 
@@ -17,7 +26,7 @@
     bottom: 20px;
     color: white;
     background-color: red;
-    font-size: 13px;
+    font-size: 11px;
     display: block;
 } 
 
@@ -32,18 +41,30 @@
 
 .models .sustainability{
     position: absolute;
-    left: 34px;
+    left: 36px;
     bottom: 20px;
     color: white;
     background-color: green;
-    font-size: 13px;
+    font-size: 11px;
     display: block;
 }
 
-.internalspace{
-    padding: 2px;
+.sustainabilitytwo{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background-color: green;
+    font-size: 11px;
+    display: block;
+    color: white;
 }
 
+/* spazio interno per lo sconto */
+.internalspace{
+    padding: 3px;
+}
+
+/* modo per sostituire le foto */
 .secondmodels{
     display: none;
 }
@@ -54,4 +75,40 @@
 
 .models:hover .secondmodels{
     display: block;
+}
+
+.marca{
+    font-size: 12px;
+}
+
+.price{
+    color: red;
+    font-size: 13px;
+}
+
+.old-price{
+    color: black;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+/* inizioscritte  PRIME TRE FOTO*/
+
+.description{
+    padding-left: 15px;
+    margin-bottom: 45px;
+}
+
+.firstdescription{
+    display: inline-block;
+}
+
+.seconddescription{
+    display: inline-block;
+    padding-left: 190px;
+}
+
+.thirddescription{
+    display: inline-block;
+    padding-left: 300px;
 }
